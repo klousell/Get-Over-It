@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Antonio;
+  src: url(antonio/antonio-regular.ttf);
+}
+
+.container, .acontainer {
+  font-family: Antonio, sans-serif;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10vw;
+}
+
+h2 {
+  margin-bottom: 30vw;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: black;
+  border: 1px solid black;
+  padding: 9px 30px;
+}
+
+.answers {
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+  margin: 0 auto;
+  text-align: center;
+  width: 150px;
+  margin-top: 45vw;
+  }
+
+  .acontainer {
+  margin: 0 auto;
+  text-align: center;
+  width: 150px;
+  margin-top: 30vw;
+  }
+
+  .answers {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 90px;
+  }
+
+  h1 {
+    margin-bottom: 25vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .container, .acontainer {
+  margin-top: 30vw;
+  }
+
+  h2 {
+    margin-bottom: 15vw;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .container, .acontainer {
+  margin-top: 20vw;
+  }
+
+  h2 {
+    margin-bottom: 7vw;
+  }
+}
